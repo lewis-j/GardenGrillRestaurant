@@ -1,0 +1,4 @@
+[23-Nov-2019 20:40:51 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/gardengrillbbq.com/public_html/wp-content/themes/pearl/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/gardengrillbbq.com/public_html/wp-content/themes/pearl/index.php on line 1

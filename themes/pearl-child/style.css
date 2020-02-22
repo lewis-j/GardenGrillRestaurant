@@ -1,0 +1,231 @@
+/*
+Theme Name: pearl Child
+Theme URL: https://gardengrillbbq.com
+Description: pearl child Theme
+Author: John Doe
+Author URL: https://gardengrillbbq.com
+Template: pearl
+Version: 1.0.0
+Text Domain: pearl
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Yellowtail&display=swap');
+
+body.stm_header_offset .stm_titlebox {
+    margin-top: 94px !important;
+   
+}
+
+div.stm_titlebox{
+ padding: 0px;
+}
+h2.tagline-heading{
+font-family: 'Satisfy', cursive;
+}
+
+div.stm-header.active  {
+	background-color: white !important;
+	
+}
+
+
+div.stm-header  {
+	background-color: white !important;
+	
+}
+
+.stm_header_style_9 div.stm_mobile__header{
+	background-color: white !important;
+}
+@media (max-width: 1024px){
+	.stm_header_style_9 div.stm-header {
+		background-color: white !important;
+	}
+}
+
+/*Easy Restuarant menu edits*/
+
+.custom-menu-col {
+    margin-top: 60px;
+}
+
+h3.erm_product_title {
+    font-family: 'montserrat', sans-serif;
+    
+}
+
+div div.erm_menu {
+    border-top-width: 0px !important;
+}
+
+.menu-taxonomy-title {
+     font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 85px;
+    padding-top: 10px;
+    color: #274253;
+}
+
+li.erm_product.no_image:before {content:none;
+              }
+li.erm_section:before {content:none !important;}
+
+li.erm_product.no_image {
+ font-family:'Open Sans', sans-serif;
+}
+
+li > h2.erm_section_title {
+    
+    border-top: none !important;
+}
+
+div.custom-border-outline {
+    border: 1px solid green;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div.erm_product_price > ul > li:before {
+    content:none !important;
+}
+
+div.custom-menu-title {
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    top: 46px;
+    background-color: white; 
+    z-index: 10;
+}
+
+ul.custom-price-list {
+    text-align: center;
+        color: black;
+    font-size: 15px;
+}
+
+ul.custom-price-list >li >p >strong {
+    font-size: 15px;
+}
+
+ul.custom-price-list > li:before {
+    content: none !important;
+}
+ul.custom-price-list > li {
+    display: inline-block;
+}
+
+div.erm_product_desc {
+    font-size: 15px;
+    color:black;
+}
+
+div.cust-side-order-font ul>li > h3.erm_product_title{
+    font-size:20px;
+}
+div.cust-side-order-font ul>li.erm_product{
+    margin:0px;
+}
+
+div.erm_menu > h1.erm_title{
+    margin-top:50px;
+    font-family: montserrat, sans-serif; 
+}
+@media (min-width: 768px){
+    div.custom-menu-title.vc_col-sm-12{
+        float: none;
+    }
+}
+
+@media (min-width: 1023px){
+    
+    .stm-header__element.object599 {
+        margin-top: 30px !important;
+    }
+}
+
+/*main navigation menu edits */
+
+.stm-navigation__divider > ul > li::after {
+    content: '';
+    width: 40px;
+}
+
+.stm-navigation__divider > ul > li:hover::after{
+    content: '';
+    width: 40px;
+    border-bottom: 1px solid green;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+}
+
+div#wrapper > div.stm-header {
+margin-bottom: -55px }
+
+h2.vc_custom_heading{
+   font-family:'Yellowtail', cursive;
+}
+
+div.cust-menu-section {
+    background-color: #ffffff !important;
+}
+
+.custom-section-text {
+	font-family: montserrat, sans-serif; 
+}
+
+h2.vc_custom_heading {
+	font-family: 'Yellowtail', cursive;
+}
+
+h1.stm_titlebox__title {
+	 font-family: 'montserrat', sans-serif;
+}
+
+div.stm_titlebox__subtitle {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.catering-content{
+	font-family: 'Open Sans', sans-serif;	
+}
+
+div#CDSWIDCOE {
+	margin: auto;
+}
+
+div#directions-btn{
+width: 100%;
+text-align: center;
+
+}
+
+a.vc_btn3.vc_btn3-color-grey.vc_btn3-style-modern {
+    background-color: #418f67;
+    color: white;
+}
+
+@media only screen and (max-width: 550px) {
+ #slider-1-slide-1-layer-20 {
+     font-size: 25px !important;
+ }
+}
+#wrapper > div.stm-header > div.stm-header__row_color.stm-header__row_color_top > div > div > div.stm-header__cell.stm-header__cell_right > div > a {
+	border: none;
+	color: #418f67 !important;
+}
+
+#wrapper > div.stm-header > div.stm-header__row_color.stm-header__row_color_top > div > div > div.stm-header__cell.stm-header__cell_right > div > a > i {
+    color: #418f67 !important;
+}
+
+#wrapper > div.stm-header > div.stm-header__row_color.stm-header__row_color_top > div > div > div.stm-header__cell.stm-header__cell_right > div > a :hover {
+	color: white !important;
+}
+
+#wrapper > div.stm-header > div.stm-header__row_color.stm-header__row_color_top > div > div > div.stm-header__cell.stm-header__cell_right > div > a > i :hover {
+    color: white !important;
+}
